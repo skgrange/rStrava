@@ -1,20 +1,18 @@
 Package: rStrava
 Type: Package
 Title: Access the 'Strava' API
-Version: 1.1.4.9000
+Version: 1.1.41
 Date: 2021-11-07
 Description: Functions to access data from the 'Strava v3 API' <https://developers.strava.com/>.
 BugReports: https://github.com/fawda123/rStrava/issues
 License: CC0
 Imports:
-    bitops,
     dplyr,
 		geosphere,
     ggplot2,
     ggrepel,
     googleway,
     httr,
-    httpuv, 
     magrittr,
     plyr,
     RCurl,
@@ -24,7 +22,8 @@ Imports:
     xml2,
     purrr,
     tibble,
-    V8
+    V8,
+    stringr
 Suggests:
 		ggmap
 Depends:
@@ -48,6 +47,11 @@ Authors@R: c(
   person(given = "Niklas", family = "von Maltzahn",
   	role = c("aut"), 
   	email = "niklasv@gmail.com"
+  	),
+    person(given = "Stuart", family = "Grange",
+  	role = c("aut"), 
+  	email = "stuart.grange@empa.ch"
   	)
   )
-RoxygenNote: 7.1.1
+Encoding: UTF-8
+RoxygenNote: 7.2.1
